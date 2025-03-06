@@ -1,22 +1,18 @@
-# import necessary python libraries
 from phi.agent import Agent
-from phi.model.xai import xAI
+from phi.model.groq import Groq
 from phi.tools.yfinance import YFinanceTools
-from phi.tools.duckduckgo import DuckDuckGo
-from phi.playground import Playground, serve_playground_app
+from dotenv import load_dotenv
 
-# create the AI finance agent
-agent = Agent(
-    name="xAI Finance Agent",
-    model = xAI(id="grok-beta"),
-    tools=[DuckDuckGo(), YFinanceTools(stock_price=True, analyst_recommendations=True, stock_fundamentals=True)],
-    instructions = ["Always use tables to display financial/numerical data. For text data use bullet points and small paragrpahs."],
-    show_tool_calls = True,
-    markdown = True,
-    )
+load_dotenv()
 
-# UI for finance agent
-app = Playground(agents=[agent]).get_app()
-
-if __name__ == "__main__":
-    serve_playground_app("xai_finance_agent:app", reload=True)
+finance_agent = Agent(
+    name="Finance Agent",
+    description = "Your task is to find the finance information",
+    model = Groq(id="llama-3.3-70b-versatile"),
+    tools=[YFinanceTools(stock_price=True, analyst_recommendations=True, company_info=True, company_news=True)],
+    instructions=["Use tables to display data"],
+    show_tool_calls=True,
+    markdown=True,
+    debug_mode = True
+)
+finance_agent.print_response("Summarize analyst recommendations for NVDA", stream=True)
