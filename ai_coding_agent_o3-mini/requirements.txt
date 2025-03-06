@@ -1,4 +1,5 @@
-streamlit
-e2b-code-interpreter
-agno
-Pillow
+phidata
+duckduckgo-search
+yfinance
+fastapi[standard] 
+openai
