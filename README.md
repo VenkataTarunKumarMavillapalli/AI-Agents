@@ -1,22 +1,15 @@
-Overview
+# AI Agents Suite Overview
 
-This repository contains multiple AI-powered applications using frameworks like Phidata, Agno, OpenAI's GPT-4o, xAI Grok, and more. These applications automate tasks in health, fitness, finance, chess, customer support, journalism, and web scraping.
+This repository contains multiple AI-powered applications using frameworks like Phidata, Agno, OpenAI's GPT-4o, xAI Grok, and more. 
 
-🚀 Featured AI Agents
-
-🏋️ AI Health & Fitness Planner: Personalized diet and fitness plans.
-
-♜ Chess AI (Agent White vs Black): AI-powered chess battle with strategic decision-making.
-
-🛒 AI Customer Support Agent: Persistent memory-based customer interaction.
-
-📈 AI Finance Agent: Real-time stock analysis and market insights.
-
-💰 AI Investment Agent: Stock comparison and financial reporting.
-
-📰 AI Journalist Agent: Automated research, writing, and editing.
-
-🌐 Web Scraping AI: AI-powered data extraction from websites.
+## 🚀 Featured AI Agents
+- 🏋️ AI Health & Fitness Planner: Personalized diet and fitness plans.
+- ♜ Chess AI (Agent White vs Black): AI-powered chess battle with strategic decision-making.
+- 🛒 AI Customer Support Agent: Persistent memory-based customer interaction.
+- 📈 AI Finance Agent: Real-time stock analysis and market insights.
+- 💰 AI Investment Agent: Stock comparison and financial reporting.
+- 📰 AI Journalist Agent: Automated research, writing, and editing.
+- 🌐 Web Scraping AI: AI-powered data extraction from websites.
 
 ---
 ## Contact
