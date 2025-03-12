@@ -3,7 +3,7 @@
 ---
 ## Contact
 For any questions or feedback, feel free to reach out:
-- [**LinkedIn**](https://www.linkedin.com/in/venkata-tarun-kumar-mavillapalli-967b4613a)
+- [**Venkata Tarun Kumar Mavillapalli**](https://www.linkedin.com/in/venkata-tarun-kumar-mavillapalli-967b4613a)
 
 ---
 
