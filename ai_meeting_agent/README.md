@@ -10,30 +10,24 @@ This Streamlit application leverages multiple AI agents to create comprehensive 
 
 ### How to get Started?
 
-1. Clone the GitHub repository
-
-```bash
-git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-cd awesome-llm-apps/ai_agent_tutorials/ai_meeting_agent
-```
-2. Install the required dependencies:
+1. Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
-3. Get your Anthropic API Key
+2. Get your Anthropic API Key
 
 - Sign up for an [Anthropic account](https://console.anthropic.com) (or the LLM provider of your choice) and obtain your API key.
 
-4. Get your SerpAPI Key
+3. Get your SerpAPI Key
 
 - Sign up for an [Serper API account](https://serper.dev/) and obtain your API key.
 
-5. Get your OpenAI API Key
+4. Get your OpenAI API Key
 
 - Sign up for an [OpenAI account](https://platform.openai.com/) (or the LLM provider of your choice) and obtain your API key.
 
-6. Run the Streamlit App
+5. Run the Streamlit App
 ```bash
 streamlit run meeting_agent.py
 ```
