@@ -10,13 +10,7 @@ The AI Startup Trend Analysis Agent is tool for budding entrepreneurs that gener
 - **Streamlit UI**: The application features a user-friendly interface built with Streamlit for easy interaction.
 
 ### How to Get Started
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git 
-   cd awesome-llm-apps/ai_agent_tutorials/ai_startup_trend_analysis_agent
-   ```
-
-2. **Create and activate a virtual environment**:
+1. **Create and activate a virtual environment**:
    ```bash
    # For macOS/Linux
    python -m venv venv
@@ -26,13 +20,12 @@ The AI Startup Trend Analysis Agent is tool for budding entrepreneurs that gener
    python -m venv venv
    .\venv\Scripts\activate
    ```
-
-3. **Install the required packages**:
+2. **Install the required packages**:
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Run the application**:
+3. **Run the application**:
    ```bash
    streamlit run startup_trends_agent.py
    ```
