@@ -22,25 +22,15 @@ A Streamlit application that simulates a full-service legal team using multiple 
 
 ## How to Run
 
-1. **Setup Environment**
-   ```bash
-   # Clone the repository
-   git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-   cd awesome-llm-apps/ai_agent_tutorials/ai_legal_agent_team
-   
-   # Install dependencies
-   pip install -r requirements.txt
-   ```
-
-2. **Configure API Keys**
+1. **Configure API Keys**
    - Get OpenAI API key from [OpenAI Platform](https://platform.openai.com)
    - Get Qdrant API key and URL from [Qdrant Cloud](https://cloud.qdrant.io)
 
-3. **Run the Application**
+2. **Run the Application**
    ```bash
    streamlit run legal_agent_team.py
    ```
-4. **Use the Interface**
+3. **Use the Interface**
    - Enter API credentials
    - Upload a legal document (PDF)
    - Select analysis type
