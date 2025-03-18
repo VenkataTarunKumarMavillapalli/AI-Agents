@@ -11,24 +11,18 @@ The AI Real Estate Agent automates property search and market analysis using Fir
 - **Customizable Search**: Filter by city, property type, category, and budget
 
 ### How to Get Started
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-   cd ai_agent_tutorials/ai_real_estate_agent
-   ```
-
-2. **Install the required packages**:
+1. **Install the required packages**:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Set up your API keys**:
+2. **Set up your API keys**:
    - Get your Firecrawl API key from [Firecrawl's website](https://www.firecrawl.dev/app/api-keys)
    - Get your OpenAI API key from [OpenAI's website](https://platform.openai.com/api-keys)
 
-4. **Run the application**:
+3. **Run the application**:
    ```bash
-   streamlit run ai_real_estate_agent.py
+   streamlit run real_estate_agent.py
    ```
 
 ### Using the Agent
