@@ -32,22 +32,12 @@ A Streamlit application that simulates a full-service recruitment team using mul
 
 ## How to Run
 
-1. **Setup Environment**
-   ```bash
-   # Clone the repository
-    git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-    cd ai_agent_tutorials/ai_recruitment_agent_team
-
-   # Install dependencies
-   pip install -r requirements.txt
-   ```
-
-2. **Configure API Keys**
+1. **Configure API Keys**
    - OpenAI API key for GPT-4o access
    - Zoom API credentials (Account ID, Client ID, Client Secret)
    - Email App Password of Recruiter's Email
 
-3. **Run the Application**
+2. **Run the Application**
    ```bash
    streamlit run ai_recruitment_agent_team.py
    ```
