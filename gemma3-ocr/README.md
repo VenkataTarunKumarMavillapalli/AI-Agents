@@ -1,19 +1,26 @@
-# Gemma-3 OCR App
+# Gemma-3 OCR
 
-This project leverages Gemma-3 vision capabilities and Streamlit to create a 100% locally running computer vision app that can perform both OCR and extract structured text from the image.
+Gemma-3 OCR is a powerful Optical Character Recognition (OCR) tool that extracts structured text from images using the Gemma-3 Vision model.
 
-## Installation and setup
+## 🚀 Features
+- Upload images (PNG, JPG, JPEG) and extract readable text.
+- Uses **Gemma-3 Vision** for accurate text recognition.
+- Outputs structured Markdown-formatted text.
+- Simple and interactive UI built with **Streamlit**.
+- One-click clear/reset functionality.
 
-**Setup Ollama**:
-   ```bash
-   # setup ollama on linux 
-   curl -fsSL https://ollama.com/install.sh | sh
-   # pull gemma-3 vision model
-   ollama run gemma3:4b
-   ```
+## 📸 Usage
+1. Upload an image via the sidebar.
+2. Click **Extract Text 🔍** to process the image.
+3. View the structured text output in the main area.
+4. Click **Clear 🗑️** to reset the session.
 
-**Install Dependencies**:
-   Ensure you have Python 3.11 or later installed.
-   ```bash
-   pip install streamlit ollama pillow
-   ```
+## 📌 Requirements
+- Python 3.8+
+- Streamlit
+- Ollama
+- PIL (Pillow)
+
+## ❤️ Acknowledgments
+Made with ❤️ using **Gemma-3 Vision Model**
+
